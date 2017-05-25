@@ -337,7 +337,7 @@ define(function (require) {
         buttonContainer.style.cssText = 'position:absolute;bottom:0;left:0;right:0;';
 
         var buttonStyle = 'float:right;margin-right:20px;border:none;'
-            + 'cursor:pointer;padding:2px 5px;font-size:12px;border-radius:3px';
+            + 'cursor:pointer;padding:5px;font-size:12px;border-radius:3px;width:auto;height:auto';
         var closeButton = document.createElement('div');
         var refreshButton = document.createElement('div');
 
